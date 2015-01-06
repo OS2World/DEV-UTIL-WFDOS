@@ -1,0 +1,86 @@
+CODEPAGE 850
+
+STRINGTABLE
+BEGIN
+ 
+  ""
+  ""
+  ""
+  ""
+  ""
+  ""
+  ""
+  ""
+  ""
+  ""
+
+
+  "TOOLS"      "COUNT"      "7"
+
+  "TOOLS1"     "TITLE"       "Turbo Assembler"
+  "TOOLS1"     "PRG"         "WFDOS-S.EXE"
+  "TOOLS1"     "DIR"         "."
+  "TOOLS1"     "INVOKE"      "/m1 TASM.EXE /oi/la/mx/iC:\TOOLKT21\ASM\OS2INC %f"
+  "TOOLS1"     "PROMTYPE"    "0"
+  "TOOLS1"     "PROMPT"      ""
+  "TOOLS1"     "PRGMTYPE"    "2"
+  "TOOLS1"     "SESSION"     "1"
+
+  "TOOLS2"     "TITLE"       "Directory List"
+  "TOOLS2"     "PRG"         "WFDOS-S.EXE"
+  "TOOLS2"     "DIR"         "C:\"
+  "TOOLS2"     "INVOKE"      "/m1 COMMAND.COM /C DIR "
+  "TOOLS2"     "PROMTYPE"    "1"
+  "TOOLS2"     "PROMPT"      "Enter filemask:"
+  "TOOLS2"     "PRGMTYPE"    "2"
+  "TOOLS2"     "SESSION"     "1"
+
+  "TOOLS3"     "TITLE"       "LHArc"
+  "TOOLS3"     "PRG"         "WFDOS-S.EXE"
+  "TOOLS3"     "DIR"         "C:\"
+  "TOOLS3"     "INVOKE"      "/m1 LHARC.EXE"
+  "TOOLS3"     "PROMTYPE"    "0"
+  "TOOLS3"     "PROMPT"      ""
+  "TOOLS3"     "PRGMTYPE"    "2"
+  "TOOLS3"     "SESSION"     "1"
+
+  "TOOLS4"     "TITLE"       "Turbo Pascal 6.0"
+  "TOOLS4"     "PRG"         "WFDOS-S.EXE"
+  "TOOLS4"     "DIR"         "."
+  "TOOLS4"     "INVOKE"      "/m1 TPC.EXE /$G+ /$N+ %f"
+  "TOOLS4"     "PROMTYPE"    "0"
+  "TOOLS4"     "PROMPT"      ""
+  "TOOLS4"     "PRGMTYPE"    "2"
+  "TOOLS4"     "SESSION"     "1"
+
+  "TOOLS5"     "TITLE"       "Borland C/C++"
+  "TOOLS5"     "PRG"         "WFDOS-S.EXE"
+  "TOOLS5"     "DIR"         "."
+  "TOOLS5"     "INVOKE"      "/m0 /vDOS_DPMI_API=ENABLED BCC.EXE %f"
+  "TOOLS5"     "PROMTYPE"    "0"
+  "TOOLS5"     "PROMPT"      ""
+  "TOOLS5"     "PRGMTYPE"    "2"
+  "TOOLS5"     "SESSION"     "1"
+
+  "TOOLS6"     "TITLE"       "Turbo Linker"
+  "TOOLS6"     "PRG"         "WFDOS-S.EXE"
+  "TOOLS6"     "DIR"         "."
+  "TOOLS6"     "INVOKE"      "/m3 /vDOS_DPMI_API=ENABLED TLINK.EXE %f"
+  "TOOLS6"     "PROMTYPE"    "0"
+  "TOOLS6"     "PROMPT"      ""
+  "TOOLS6"     "PRGMTYPE"    "2"
+  "TOOLS6"     "SESSION"     "1"
+
+  "TOOLS7"     "TITLE"       "View .ZIP-file"
+  "TOOLS7"     "PRG"         "WFDOS-S.EXE"
+  "TOOLS7"     "DIR"         "."
+  "TOOLS7"     "INVOKE"      "/m0 PKUNZIP.EXE -vb %f"
+  "TOOLS7"     "PROMTYPE"    "0"
+  "TOOLS7"     "PROMPT"      ""
+  "TOOLS7"     "PRGMTYPE"    "2"
+  "TOOLS7"     "SESSION"     "1"
+
+  ""           ""            ""
+
+END
+
